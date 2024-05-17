@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/styles.css" />
 
                 <!-- 3 importando o arquivo .js no <head> -->
-    <script src="js/script2.js"></script>
+    <script src=""></script>
   </head>
   <body>
     <div class="container">
@@ -26,10 +26,10 @@
             <label for="n2" class="form-label">N2</label>
             <input type="text" class="form-control" id="n2" required>
             
-            <button class="btn btn-primary" type="submit">Somar</button>
-            <button class="btn btn-primary" type="reset">Limpar</button>
+            <button class="btn btn-primary" type="button" id="somar">Somar</button>
+            <button class="btn btn-primary" type="button" id="limpar">Limpar</button>
             
-            <div class="resultado"></div>
+            <div class="resultado" id="result"></div>
         </form>
     </div>
 
@@ -39,9 +39,9 @@
 
 
                 <!-- 1 usando tag script -->
-    <script>
+    <!-- <script>
       console.log("Testando a tag script!");
-    </script>
+    </script> -->
 
 
                 <!-- 2 importando o arquivo .js -->

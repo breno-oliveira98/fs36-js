@@ -10,7 +10,7 @@
     1 - não pode ser palavra reservada
     2 - não pode começar com número
     3 - não pode conter espaços ou traços
-    4 - não pode coter caracteres especiais
+    4 - não pode conter caracteres especiais
     5 - pode começar com letra, underline ou $
     6 - não pode ser palavra reservada
     7 - não pode ser nome de função
