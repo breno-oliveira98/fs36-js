@@ -11,7 +11,8 @@ document.getElementById('somar').addEventListener('click', function() {
     
    } else {    
 
-        document.getElementById('result').textContent = 'Por favor, insira números válidos.';
+        document.getElementById('result').textContent = 'ERROR';
+        resultElement.style.color = 'red';
 
    }
 });
