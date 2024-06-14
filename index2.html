@@ -27,11 +27,11 @@
             <input type="number" class="form-control" id="n2" required>
             
             <div class="botoes">
-              <button class="btn btn-primary" type="button" id="adição" onclick="soma()">Somar</button>
-              <button class="btn btn-primary" type="button" id="subtração" onclick="subtrair()">Subtrair</button>
-              <button class="btn btn-primary" type="button" id="multiplicação" onclick="multiplicar()">Multiplicar</button>
-              <button class="btn btn-primary" type="button" id="divisão" onclick="dividir()">Dividir</button>
-              <button class="btn btn-primary" type="reset" id="limpar" onclick="limparCampos()">Limpar</button>
+              <button class="btn btn-primary" type="button" id="adição" onclick="calcular(this)">Somar</button>
+              <button class="btn btn-primary" type="button" id="subtração" onclick="calcular(this)">Subtrair</button>
+              <button class="btn btn-primary" type="button" id="multiplicação" onclick="calcular(this)">Multiplicar</button>
+              <button class="btn btn-primary" type="button" id="divisão" onclick="calcular(this)">Dividir</button>
+              <button class="btn btn-primary" type="reset" id="limpar" onclick="calcular()">Limpar</button>
             </div>
             
             <div class="resultado" id="result"></div>
@@ -50,7 +50,7 @@
 
 
                 <!-- 2 importando o arquivo .js -->
-    <script src="js/script.js"></script> 
+    <script src="js/script3.js"></script> 
 
 
                 <!-- importando o JS bootstrap -->

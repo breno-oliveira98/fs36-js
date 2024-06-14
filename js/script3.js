@@ -1,41 +1,28 @@
-let operacao;
-let tipo;
+const n1 = document.getElementById('n1').value
+const n2 = document.getElementById('n2').value
+
+function calcular(e) {
+    console.log(e.innerText);
+}
 
 function soma() {
-    const n1 = parseFloat(document.getElementById('n1').value);
-    const n2 = parseFloat(document.getElementById('n2').value);
-    tipo = "adição";
-    operacao = n1 + n2;
-    result(n1, n2);
+    parseFloat(n1.value) + parseFloat(n2.value);
+
 }
 
 function subtrair() {
-    const n1 = parseFloat(document.getElementById('n1').value);
-    const n2 = parseFloat(document.getElementById('n2').value);
-    tipo = "subtração";
-    operacao = n1 - n2;
-    result(n1, n2);
+    parseFloat(n1.value) - parseFloat(n2.value);
+
 }
 
 function multiplicar() {
-    const n1 = parseFloat(document.getElementById('n1').value);
-    const n2 = parseFloat(document.getElementById('n2').value);
-    tipo = "multiplicação";
-    operacao = n1 * n2;
-    result(n1, n2);
+    parseFloat(n1.value) * parseFloat(n2.value);
+
 }
 
 function dividir() {
-    const n1 = parseFloat(document.getElementById('n1').value);
-    const n2 = parseFloat(document.getElementById('n2').value);
-    tipo = "divisão";
-    if (n2 !== 0) {
-        operacao = n1 / n2;
-    } else {
-        operacao = "Erro: Divisão por zero";
-        tipo = "erro";
-    }
-    result(n1, n2);
+    parseFloat(n1.value) / parseFloat(n2.value);
+    
 }
 
 function result(n1, n2) {
